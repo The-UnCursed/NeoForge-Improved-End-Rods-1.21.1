@@ -1,4 +1,4 @@
-package net.uncursed.improvedendrods;
+package net.uncursed.improved_end_rods;
 
 import net.neoforged.api.distmarker.Dist;
 import net.neoforged.fml.ModContainer;

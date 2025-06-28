@@ -1,5 +1,8 @@
-package net.uncursed.improvedendrods;
+package net.uncursed.improved_end_rods;
 
+import net.minecraft.world.item.CreativeModeTabs;
+import net.uncursed.improved_end_rods.block.ModBlocks;
+import net.uncursed.improved_end_rods.item.ModItems;
 import org.slf4j.Logger;
 
 import com.mojang.logging.LogUtils;
@@ -20,7 +23,7 @@ import net.neoforged.neoforge.event.server.ServerStartingEvent;
 // The value here should match an entry in the META-INF/neoforge.mods.toml file
 @Mod(ImprovedEndRods.MOD_ID)
 public class ImprovedEndRods {
-    public static final String MOD_ID = "improvedendrods";
+    public static final String MOD_ID = "improved_end_rods";
     private static final Logger LOGGER = LogUtils.getLogger();
 
     // The constructor for the mod class is the first code that is run when your mod is loaded.
@@ -33,6 +36,9 @@ public class ImprovedEndRods {
         // Note that this is necessary if and only if we want *this* class (ExampleMod) to respond directly to events.
         // Do not add this line if there are no @SubscribeEvent-annotated functions in this class, like onServerStarting() below.
         NeoForge.EVENT_BUS.register(this);
+
+        ModItems.register(modEventBus);
+        ModBlocks.register(modEventBus);
 
         // Register the item to a creative tab
         modEventBus.addListener(this::addCreative);
@@ -47,7 +53,9 @@ public class ImprovedEndRods {
 
     // Add the example block item to the building blocks tab
     private void addCreative(BuildCreativeModeTabContentsEvent event) {
-
+        if (event.getTabKey() == CreativeModeTabs.FUNCTIONAL_BLOCKS) {
+            event.accept(ModBlocks.ENDLESS_END_ROD);
+        }
     }
 
     // You can use SubscribeEvent and let the Event Bus discover methods to call
