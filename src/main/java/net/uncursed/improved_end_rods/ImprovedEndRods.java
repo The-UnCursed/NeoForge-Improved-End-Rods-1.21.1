@@ -2,6 +2,7 @@ package net.uncursed.improved_end_rods;
 
 import net.minecraft.world.item.CreativeModeTabs;
 import net.uncursed.improved_end_rods.block.ModBlocks;
+import net.uncursed.improved_end_rods.item.ModCreativeModeTabs;
 import net.uncursed.improved_end_rods.item.ModItems;
 import org.slf4j.Logger;
 
@@ -37,12 +38,13 @@ public class ImprovedEndRods {
         // Do not add this line if there are no @SubscribeEvent-annotated functions in this class, like onServerStarting() below.
         NeoForge.EVENT_BUS.register(this);
 
+        ModCreativeModeTabs.register(modEventBus);
+
         ModItems.register(modEventBus);
         ModBlocks.register(modEventBus);
 
         // Register the item to a creative tab
         modEventBus.addListener(this::addCreative);
-
         // Register our mod's ModConfigSpec so that FML can create and load the config file for us
         modContainer.registerConfig(ModConfig.Type.COMMON, Config.SPEC);
     }
