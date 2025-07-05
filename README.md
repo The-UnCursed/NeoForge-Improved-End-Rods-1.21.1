@@ -54,8 +54,7 @@ A Minecraft mod for **NeoForge 1.21.1** that adds more visual variety and buildi
 
 ## 🧑‍💻 Credits
 
-Developed by [The-UnCursed](https://github.com/The-UnCursed)  
-Textures, models, and ideas by The-UnCursed
+Developed by [The-UnCursed](https://github.com/The-UnCursed)
 
 ---
 
