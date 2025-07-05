@@ -1,5 +1,50 @@
 {
   "block.improved_end_rods.endless_end_rod": "Endless End Rod",
 
+  "block.improved_end_rods.endless_end_rod_orange": "Orange Endless End Rod",
+  "block.improved_end_rods.end_rod_orange": "Orange End Rod",
+
+  "block.improved_end_rods.endless_end_rod_magenta": "Magenta Endless End Rod",
+  "block.improved_end_rods.end_rod_magenta": "Magenta End Rod",
+
+  "block.improved_end_rods.endless_end_rod_light_blue": "Light Blue Endless End Rod",
+  "block.improved_end_rods.end_rod_light_blue": "Light Blue End Rod",
+
+  "block.improved_end_rods.endless_end_rod_yellow": "Yellow Endless End Rod",
+  "block.improved_end_rods.end_rod_yellow": "Yellow End Rod",
+
+  "block.improved_end_rods.endless_end_rod_lime": "Lime Endless End Rod",
+  "block.improved_end_rods.end_rod_lime": "Lime End Rod",
+
+  "block.improved_end_rods.endless_end_rod_pink": "Pink Endless End Rod",
+  "block.improved_end_rods.end_rod_pink": "Pink End Rod",
+
+  "block.improved_end_rods.endless_end_rod_gray": "Gray Endless End Rod",
+  "block.improved_end_rods.end_rod_gray": "Gray End Rod",
+
+  "block.improved_end_rods.endless_end_rod_light_gray": "Light Gray Endless End Rod",
+  "block.improved_end_rods.end_rod_light_gray": "Light Gray End Rod",
+
+  "block.improved_end_rods.endless_end_rod_cyan": "Cyan Endless End Rod",
+  "block.improved_end_rods.end_rod_cyan": "Cyan End Rod",
+
+  "block.improved_end_rods.endless_end_rod_purple": "Purple Endless End Rod",
+  "block.improved_end_rods.end_rod_purple": "Purple End Rod",
+
+  "block.improved_end_rods.endless_end_rod_blue": "Blue Endless End Rod",
+  "block.improved_end_rods.end_rod_blue": "Blue End Rod",
+
+  "block.improved_end_rods.endless_end_rod_brown": "Brown Endless End Rod",
+  "block.improved_end_rods.end_rod_brown": "Brown End Rod",
+
+  "block.improved_end_rods.endless_end_rod_green": "Green Endless End Rod",
+  "block.improved_end_rods.end_rod_green": "Green End Rod",
+
+  "block.improved_end_rods.endless_end_rod_red": "Red Endless End Rod",
+  "block.improved_end_rods.end_rod_red": "Red End Rod",
+
+  "block.improved_end_rods.endless_end_rod_black": "Black Endless End Rod",
+  "block.improved_end_rods.end_rod_black": "Black End Rod",
+
   "creativetab.improvedendrods.end_rod_blocks": "End Rod Blocks"
 }

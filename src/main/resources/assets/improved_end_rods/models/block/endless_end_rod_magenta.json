@@ -37,7 +37,7 @@
     }
   },
   "textures": {
-    "end_rod": "improved_end_rods:block/endless_end_rod",
+    "end_rod": "improved_end_rods:block/endless_end_rod_magenta",
     "particle": "minecraft:block/end_rod"
   },
   "elements": [

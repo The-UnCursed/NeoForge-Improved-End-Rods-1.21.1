@@ -16,11 +16,20 @@ public class ModCreativeModeTabs {
             DeferredRegister.create(Registries.CREATIVE_MODE_TAB, ImprovedEndRods.MOD_ID);
 
     public static final Supplier<CreativeModeTab> IMPROVED_END_RODS_TAB = CREATIVE_MODE_TAB.register("end_rod_blocks_tab",
-            () -> CreativeModeTab.builder().icon(() -> new ItemStack(ModBlocks.ENDLESS_END_ROD.get()))
+            () -> CreativeModeTab.builder()
+                    .icon(() -> new ItemStack(ModBlocks.ENDLESS_END_ROD.get()))
                     .title(Component.translatable("creativetab.improvedendrods.end_rod_blocks"))
                     .displayItems((parameters, output) -> {
-                        output.accept(ModBlocks.ENDLESS_END_ROD);
+                        // Add the non-colored block
+                        output.accept(ModBlocks.ENDLESS_END_ROD.get());
+
+                        // Add all colored endless rods
+                        ModBlocks.ENDLESS_END_ROD_COLORED.values().forEach(deferredBlock -> output.accept(deferredBlock.get()));
+
+                        // Add all colored normal rods
+                        ModBlocks.END_ROD_COLORED.values().forEach(deferredBlock -> output.accept(deferredBlock.get()));
                     }).build());
+
 
 
     public static void register(IEventBus eventBus) {

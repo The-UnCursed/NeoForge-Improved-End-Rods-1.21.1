@@ -1,13 +1,11 @@
 {
   "variants": {
+    "facing=up": {
+      "model": "improved_end_rods:block/endless_end_rod"
+    },
     "facing=down": {
       "model": "improved_end_rods:block/endless_end_rod",
       "x": 180
-    },
-    "facing=east": {
-      "model": "improved_end_rods:block/endless_end_rod",
-      "x": 90,
-      "y": 90
     },
     "facing=north": {
       "model": "improved_end_rods:block/endless_end_rod",
@@ -18,13 +16,15 @@
       "x": 90,
       "y": 180
     },
-    "facing=up": {
-      "model": "improved_end_rods:block/endless_end_rod"
-    },
     "facing=west": {
       "model": "improved_end_rods:block/endless_end_rod",
       "x": 90,
       "y": 270
+    },
+    "facing=east": {
+      "model": "improved_end_rods:block/endless_end_rod",
+      "x": 90,
+      "y": 90
     }
   }
 }

@@ -37,14 +37,83 @@
     }
   },
   "textures": {
-    "end_rod": "improved_end_rods:block/endless_end_rod",
+    "end_rod": "improved_end_rods:block/end_rod_cyan",
     "particle": "minecraft:block/end_rod"
   },
   "elements": [
     {
       "from": [
-        7,
+        6,
         0,
+        6
+      ],
+      "to": [
+        10,
+        1,
+        10
+      ],
+      "faces": {
+        "down": {
+          "uv": [
+            6,
+            6,
+            2,
+            2
+          ],
+          "texture": "#end_rod",
+          "cullface": "down"
+        },
+        "up": {
+          "uv": [
+            2,
+            2,
+            6,
+            6
+          ],
+          "texture": "#end_rod"
+        },
+        "north": {
+          "uv": [
+            2,
+            6,
+            6,
+            7
+          ],
+          "texture": "#end_rod"
+        },
+        "south": {
+          "uv": [
+            2,
+            6,
+            6,
+            7
+          ],
+          "texture": "#end_rod"
+        },
+        "west": {
+          "uv": [
+            2,
+            6,
+            6,
+            7
+          ],
+          "texture": "#end_rod"
+        },
+        "east": {
+          "uv": [
+            2,
+            6,
+            6,
+            7
+          ],
+          "texture": "#end_rod"
+        }
+      }
+    },
+    {
+      "from": [
+        7,
+        1,
         7
       ],
       "to": [
@@ -55,28 +124,20 @@
       "faces": {
         "up": {
           "uv": [
-            4,
             2,
-            2,
-            0
-          ],
-          "texture": "#end_rod"
-        },
-        "down": {
-          "uv": [
-            4,
             0,
-            2,
+            4,
             2
           ],
-          "texture": "#end_rod"
+          "texture": "#end_rod",
+          "cullface": "up"
         },
         "north": {
           "uv": [
             0,
             0,
             2,
-            16
+            15
           ],
           "texture": "#end_rod"
         },
@@ -85,7 +146,7 @@
             0,
             0,
             2,
-            16
+            15
           ],
           "texture": "#end_rod"
         },
@@ -94,7 +155,7 @@
             0,
             0,
             2,
-            16
+            15
           ],
           "texture": "#end_rod"
         },
@@ -103,7 +164,7 @@
             0,
             0,
             2,
-            16
+            15
           ],
           "texture": "#end_rod"
         }
