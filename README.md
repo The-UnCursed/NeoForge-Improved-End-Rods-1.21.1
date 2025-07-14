@@ -1,6 +1,8 @@
 # Improved End Rods
 
-A Minecraft mod for **NeoForge 1.21.1** that adds more visual variety and building options using end rods. This mod introduces **colored end rods** in all 16 vanilla dye colors and **endless end rods**, a sleek variant with no base.
+A Minecraft mod for **NeoForge 1.21.1** that adds more visual variety and
+building options using end rods. This mod introduces **colored end rods** in 15 vanilla dye colors (excluding white),
+**endless end rods** with no base, and **broken end rods** — cracked and shattered variants for a more worn aesthetic.
 
 ---
 
