@@ -22,6 +22,8 @@ public class ModCreativeModeTabs {
                     .displayItems((parameters, output) -> {
                         // Add the non-colored block
                         output.accept(ModBlocks.ENDLESS_END_ROD.get());
+                        output.accept(ModBlocks.BROKEN_END_ROD.get());
+                        output.accept(ModBlocks.BROKEN_ENDLESS_END_ROD.get());
 
                         // Add all colored endless rods
                         ModBlocks.ENDLESS_END_ROD_COLORED.values().forEach(deferredBlock -> output.accept(deferredBlock.get()));

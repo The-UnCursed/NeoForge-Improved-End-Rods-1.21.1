@@ -1,0 +1,30 @@
+{
+  "variants": {
+    "facing=up": {
+      "model": "improved_end_rods:block/broken_end_rod"
+    },
+    "facing=down": {
+      "model": "improved_end_rods:block/broken_end_rod",
+      "x": 180
+    },
+    "facing=north": {
+      "model": "improved_end_rods:block/broken_end_rod",
+      "x": 90
+    },
+    "facing=south": {
+      "model": "improved_end_rods:block/broken_end_rod",
+      "x": 90,
+      "y": 180
+    },
+    "facing=west": {
+      "model": "improved_end_rods:block/broken_end_rod",
+      "x": 90,
+      "y": 270
+    },
+    "facing=east": {
+      "model": "improved_end_rods:block/broken_end_rod",
+      "x": 90,
+      "y": 90
+    }
+  }
+}

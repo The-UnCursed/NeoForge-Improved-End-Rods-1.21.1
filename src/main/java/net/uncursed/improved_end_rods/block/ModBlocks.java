@@ -21,12 +21,19 @@ public class ModBlocks {
     public static final DeferredRegister.Blocks BLOCKS =
             DeferredRegister.createBlocks(ImprovedEndRods.MOD_ID);
 
-    // Store registered blocks for easy access if needed
+    // Store registered blocks for easy access
     public static final Map<DyeColor, DeferredBlock<Block>> ENDLESS_END_ROD_COLORED = new HashMap<>();
     public static final Map<DyeColor, DeferredBlock<Block>> END_ROD_COLORED = new HashMap<>();
 
-    // Example for the non-colored block
     public static final DeferredBlock<Block> ENDLESS_END_ROD = registerBlock("endless_end_rod",
+            () -> new EndRodBlock(BlockBehaviour.Properties.of()
+                    .forceSolidOff().instabreak().lightLevel(p -> 14).sound(SoundType.WOOD).noOcclusion()));
+
+    public static final DeferredBlock<Block> BROKEN_END_ROD = registerBlock("broken_end_rod",
+            () -> new EndRodBlock(BlockBehaviour.Properties.of()
+                    .forceSolidOff().instabreak().lightLevel(p -> 14).sound(SoundType.WOOD).noOcclusion()));
+
+    public static final DeferredBlock<Block> BROKEN_ENDLESS_END_ROD = registerBlock("broken_endless_end_rod",
             () -> new EndRodBlock(BlockBehaviour.Properties.of()
                     .forceSolidOff().instabreak().lightLevel(p -> 14).sound(SoundType.WOOD).noOcclusion()));
 

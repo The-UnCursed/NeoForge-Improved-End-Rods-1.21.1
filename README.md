@@ -7,12 +7,16 @@ A Minecraft mod for **NeoForge 1.21.1** that adds more visual variety and buildi
 ## ✨ Features
 
 - 🎨 **Colored End Rods**  
-  All 16 dye colors supported. Add some vibrant flair to your builds!
+  15 dye colors supported. Add some vibrant flair to your builds!
 
 
 - 🌀 **Endless End Rods**  
   A minimalist visual variant of the vanilla end rod.  
   No base — just a clean vertical stick of light.
+
+
+- 🔮 **Broken End Rods**  
+  A shattered version of the end rod and endless end rod.
 
 
 - 🔥 **Built for NeoForge 1.21.1**
@@ -29,7 +33,11 @@ A Minecraft mod for **NeoForge 1.21.1** that adds more visual variety and buildi
 
 ### End Rod vs Endless End Rod
 ![End Rod](./images/end-rod-shaders.png)
-![End Rod](./images/endless-end-rod-shaders.png)
+![Endless End Rod](./images/endless-end-rod-shaders.png)
+
+### Broken End Rod & Broken Endless End Rod
+![Broken End Rods 1](./images/broken-end-rods-1.png)
+![Broken End Rods 2](./images/broken-end-rods-2.png)
 
 ---
 
@@ -45,10 +53,15 @@ A Minecraft mod for **NeoForge 1.21.1** that adds more visual variety and buildi
 ## 📦 Crafting
 
 - **Colored End Rods**:  
-  Combine an end rod with any dye in a crafting grid.
+  ![Colored End Rod Recipe](./images/recipe-colored-end-rod.png)
+
 
 - **Endless End Rods**:  
-  Crafted similarly, using end rods — see the recipes in-game with JEI or REI.
+  ![Endless End Rod Recipe](./images/recipe-endless-end-rod.png)
+
+
+- **Broken End Rods**:  
+  Coming soon...
 
 ---
 

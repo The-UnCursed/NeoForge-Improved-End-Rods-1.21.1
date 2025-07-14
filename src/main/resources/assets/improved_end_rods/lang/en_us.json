@@ -46,5 +46,8 @@
   "block.improved_end_rods.endless_end_rod_black": "Black Endless End Rod",
   "block.improved_end_rods.end_rod_black": "Black End Rod",
 
+  "block.improved_end_rods.broken_end_rod": "Broken End Rod",
+  "block.improved_end_rods.broken_endless_end_rod": "Broken Endless End Rod",
+
   "creativetab.improvedendrods.end_rod_blocks": "End Rod Blocks"
 }
