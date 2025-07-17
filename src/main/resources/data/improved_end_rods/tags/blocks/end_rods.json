@@ -32,6 +32,8 @@
     "improved_end_rods:endless_end_rod_red",
     "improved_end_rods:end_rod_red",
     "improved_end_rods:endless_end_rod_black",
-    "improved_end_rods:end_rod_black"
+    "improved_end_rods:end_rod_black",
+    "improved_end_rods:broken_end_rod",
+    "improved_end_rods:broken_endless_end_rod"
   ]
 }

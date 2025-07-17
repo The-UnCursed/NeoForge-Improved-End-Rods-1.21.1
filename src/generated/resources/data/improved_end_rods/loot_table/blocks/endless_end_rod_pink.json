@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:block",
+  "pools": [
+    {
+      "bonus_rolls": 0.0,
+      "conditions": [
+        {
+          "condition": "minecraft:survives_explosion"
+        }
+      ],
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "improved_end_rods:endless_end_rod_pink"
+        }
+      ],
+      "rolls": 1.0
+    }
+  ],
+  "random_sequence": "improved_end_rods:blocks/endless_end_rod_pink"
+}

@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "improved_end_rods:broken_endless_end_rod"
+    }
+  ],
+  "result": {
+    "count": 1,
+    "id": "improved_end_rods:broken_end_rod"
+  }
+}

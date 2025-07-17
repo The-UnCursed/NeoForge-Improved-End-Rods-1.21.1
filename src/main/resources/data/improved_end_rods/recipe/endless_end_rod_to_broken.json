@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:blasting",
+  "category": "misc",
+  "ingredient": {
+    "item": "improved_end_rods:endless_end_rod"
+  },
+  "result": {
+    "count": 1,
+    "id": "improved_end_rods:broken_endless_end_rod"
+  },
+  "experience": 0.6,
+  "cookingtime": 200
+}

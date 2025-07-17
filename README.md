@@ -54,16 +54,18 @@ building options using end rods. This mod introduces **colored end rods** in 15 
 
 ## 📦 Crafting
 
-- **Colored End Rods**:  
+- ## **Colored End Rods**:  
   ![Colored End Rod Recipe](./images/recipe-colored-end-rod.png)
 
 
-- **Endless End Rods**:  
+- ## **Endless End Rods**:  
   ![Endless End Rod Recipe](./images/recipe-endless-end-rod.png)
 
 
-- **Broken End Rods**:  
-  Coming soon...
+- ## **Broken End Rods**:
+  ![Broken Endless End Rod Recipe](./images/recipe-broken-endless-end-rod.png)
+  ![Broken End Rod Recipe](./images/recipe-broken-end-rod.png)
+  ### *Broken end rods can be repaired with chorus fruit.*
 
 ---
 
