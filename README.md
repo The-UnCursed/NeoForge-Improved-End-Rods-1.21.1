@@ -55,7 +55,9 @@ building options using end rods. This mod introduces **colored end rods** in 15 
 ## 📦 Crafting
 
 - ## **Colored End Rods**:  
-  ![Colored End Rod Recipe](./images/recipe-colored-end-rod.png)
+  ![Colored End Rod Recipe](./images/recipe-colored-end-rod.png) 
+
+  ***You can craft colored end rods back into the non-colored version with white dye.***
 
 
 - ## **Endless End Rods**:  
